@@ -8,7 +8,20 @@ public class Pessoa {
 		this.nome = nome;
 		this.idade = idade;
 	}
+	public Pessoa() {
+		nome = "Matt Shadows";
+		idade = 44;
+	}
+	public Pessoa(String nome) {
+		this.nome = nome;
+		idade = 43;
+	}
+	public Pessoa(int idade) {
+		nome = "The Rev";
+		this.idade = idade;
+	}
 	
+	//get set
 	public String getNome() {
 		return nome;
 	}
